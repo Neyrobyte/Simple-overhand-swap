@@ -3,14 +3,14 @@
 	"id": "simple-overhand-swap",
 	"version": "${version}",
 	"name": "Simple Overhand Swap",
-	"description": "suppression swap item for you no open inventory!",
+	"description": "Disables the hand-swap functionality outside the inventory to prevent accidental item swaps during gameplay!",
 	"authors": [
 		"Neyrobyte"
 	],
 	"contact": {
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Neyrobyte/Simple-overhand-swap"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/simple-overhand-swap/icon.png",
     "environment": "client",
 	"entrypoints": {
@@ -23,7 +23,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.17.2",
-		"minecraft": "~1.21",
+		"minecraft": ">=1.21",
 		"java": ">=17",
 		"fabric-api": "*"
 	},
